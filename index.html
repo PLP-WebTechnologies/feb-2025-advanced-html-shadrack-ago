@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Assingment</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" br
+     alt="Little pappies" width="430">
+
+    <!-- Contacts Table -->
+    <h2>Contacts</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shady Ago</td>
+                <td>123 waiyaki</td>
+                <td>+254712345678</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Royals</td>
+                <td>456 kibiko</td>
+                <td>+254798765432</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Otieno</td>
+                <td>789 Race course</td>
+                <td>+254711223344</td>
+                <td>michael@example.com</td>
+            </tr>
+            <tr>
+                <td>Emy roberts</td>
+                <td>159 Pine St</td>
+                <td>+254733445566</td>
+                <td>emily@example.com</td>
+            </tr>
+            <tr>
+                <td>Chris Wilson</td>
+                <td>753 Birch St</td>
+                <td>+254722334455</td>
+                <td>chris@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="type your full name here" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="type your valid email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Select Your Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select>
+
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
